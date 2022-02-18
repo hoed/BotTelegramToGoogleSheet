@@ -27,7 +27,7 @@ function breakData(update) {
   var match = str.match(validasiData);
 
 //Setting Format Data yang akan diinput
-  if (match.length == 10) {
+  if (match.length == 9) {
     for(var i=0; i < match.length; i++) {
       match[i] = match[i].replace(':', '').trim();
   }
